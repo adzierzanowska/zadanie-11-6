@@ -93,7 +93,7 @@ $(function() {
 
     // BOARD
 
-    var board = {
+    var board =  {
         name: 'Kanban Board',
         addColumn: function(column) {
             this.$element.append(column.$element);
