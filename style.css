@@ -17,7 +17,7 @@ div.column {
     width: 200px;
     float: left;
     text-align: center;
-    margin: 20px;
+    margin: 20px 10px;
     border: 1px solid #f1dcf2;
     border-radius: 15px;
     background: #f1dcf2;
@@ -36,7 +36,8 @@ div.column {
     border-radius: 15px;
     background-color: #f4e8f4;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
+    font-size: 14px;
 }
 
 .btn-delete {
