@@ -1,4 +1,4 @@
-/*
+
 // OGÓLNA FUNKCJA
 function randomString() {
     var chars = '0123456789abcdefghiklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXTZ'.split();
