@@ -76,19 +76,19 @@ $(function() {
                 self.removeCard();
             });
 
-            Card.prototype = {
-                removeCard: function() {
-                    this.$element.remove();
-                }
-
-            }
-
             // COMBINING BLOCKS AND RETURNING THE CARD
             $card.append($cardDelete)
                 .append($cardDescription);
 
             return $card;
         }
+    }
+
+    Card.prototype = {
+        removeCard: function() {
+            this.$element.remove();
+        }
+
     }
 
     // BOARD
@@ -98,18 +98,20 @@ $(function() {
         addColumn: function(column) {
             this.$element.append(column.$element);
             initSortable();
+            },
 
+            $element: $('#board .column-container')
 
-            $('.create-column')
-                .click(function(){
-                    var name = prompt('Enter a column name');
-                    var column = new Column(name);
-                    board.addColumn(column);
-                });
-        },
-        $element: $('#board .column-container')
     };
 
+    $('.create-column')
+        .click(
+            function(){
+                var name = prompt('Enter a column name');
+                var column = new Column(name);
+                board.addColumn(column);
+            }
+        );
 
 
 
