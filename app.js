@@ -26,3 +26,9 @@ var card2 = new Card('stworzyc tablice kanban');
 // DODAWANIE KART DO KOLUMN
 todoColumn.createCard(card1);
 doingColumn.createCard(card2);
+
+var baseUrl = 'https://kodilla.com/pl/bootcamp-api';
+var myHeaders = {
+    'X-Client-Id': 'X-Client-Id',
+    'X-Auth-Token': 'X-Auth-Token'
+};
