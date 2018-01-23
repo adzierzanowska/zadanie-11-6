@@ -1,4 +1,4 @@
-$(function(){
+/* $(function(){
 
     // FUNKCJE POMOCNICZE
     function initSortable() {
@@ -8,14 +8,6 @@ $(function(){
         }).disableSelection();
     }
 
-    function randomString() {
-        var chars = '0123456789abcdefghiklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXTZ'.split();
-        var str = '', i;
-        for (i = 0; i < 10; i++) {
-            str += chars[Math.floor(Math.random() * chars.length)];
-        }
-        return str;
-    }
 
     // KANBAN
     var board = {

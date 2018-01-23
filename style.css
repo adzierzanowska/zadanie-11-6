@@ -30,8 +30,8 @@ div.column {
     font-size: 20px;
 }
 
-.column-card-list {
-    text-align: left;
+.card-list {
+    text-align: left; */
     border: 1px solid #f4e8f4;
     border-radius: 15px;
     background-color: #f4e8f4;
@@ -40,8 +40,16 @@ div.column {
     font-size: 14px;
 }
 
-.btn-delete {
+button.btn-delete {
     background-color: #98669b;
     border-radius: 5px;
+}
+button.column-add-card {
+    text-align: right;
+    float: right;
+}
+
+button.btn-delete-card {
+    background-color: black;
 }
 
