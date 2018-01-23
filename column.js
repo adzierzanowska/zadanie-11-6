@@ -55,6 +55,6 @@ Column.prototype = {
             success: function(response){
                 self.element.remove();
             }
-        }),
+        })
     }
 };

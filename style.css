@@ -38,18 +38,27 @@ div.column {
     margin: 5px;
     padding: 10px;
     font-size: 14px;
+    color: black;
 }
 
 button.btn-delete {
     background-color: #98669b;
     border-radius: 5px;
+    float: top;
+    margin: 5px;
+    font-size: 14px;
 }
+
 button.column-add-card {
-    text-align: right;
     float: right;
+    font-size: 12px;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 button.btn-delete-card {
-    background-color: black;
+    background-color: #a777b7;
+    border-radius: 5px;
+    font-size: 13px;
 }
 
